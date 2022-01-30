@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+ 
+* { 
+  margin: 0;
+}
+
+
+html {
+  font-family: "Roboto";
+  height: 100%;
+  width: 100%;
+}
+
+#mp {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.namepicker {
+  padding: 50px 35px 50px 35px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  display: block;
+  animation: fadeIn 0.75s forwards 0s ease;
+}
+
+.namepicker p {
+  color: #585858;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.namepicker textarea {
+  width: 420px;
+  color: #898989;
+  font-size: 20px;
+  font-weight: normal;
+  background-color: white;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  padding: 20px;
+  border: 0;
+  margin-bottom: 75px;
+  resize: none;
+  overflow: hidden;
+  min-height: 50px;
+  max-height: 100px;
+}
+
+.namepicker textarea::placeholder {
+  color: #D9D9D9;
+}
+
+.namepicker textarea:focus {
+  outline: none;
+}
+
+.namepicker h2 {
+  color: #6E6E6E;
+  font-size: 48px;
+  font-weight: medium;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.namepicker a {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 21px 161px;
+  background: linear-gradient(to right, #ff0000, #cc0c01);
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 1000px;
+  display: block;
+  margin: auto;
+}
+
+.namepicker .result_div{
+  color: #585858;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 25px;
+  text-align: center;
+}
